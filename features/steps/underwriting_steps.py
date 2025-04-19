@@ -1,5 +1,5 @@
 from behave import given, when, then
-from creditunderwriting.underwriting_rules import evaluate
+from underwriting_rules import evaluate
 
 @given('an applicant with income "{income:d}", loan amount "{amount:d}" and risk score "{risk_score:d}"')
 def step_given_applicant_data(context, income, amount, risk_score):
